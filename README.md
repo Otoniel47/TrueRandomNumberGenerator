@@ -30,3 +30,6 @@ O design do software foi arquitetado sob os princípios de **alta performance, b
 *   **Concorrência:** System.Threading.Channels
 *   **Criptografia:** System.Security.Cryptography (SHA-256 / ZeroMemory)
 *   **Serialização:** System.Text.Json (Source Generators para compatibilidade total com Native AOT)
+
+*   <img width="1600" height="1204" alt="WhatsApp Image 2026-07-05 at 17 14 12" src="https://github.com/user-attachments/assets/2fe66a89-4252-4800-8a07-d0e18874aec4" />
+
