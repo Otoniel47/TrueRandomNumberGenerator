@@ -1,0 +1,82 @@
+# ====================================================================
+# .NET / C# (API & Background Workers)
+# ====================================================================
+# Binários e artefatos de build
+[Bb]in/
+[Oo]bj/
+
+# Publicação AOT e builds nativos
+*.exe
+*.dll
+*.pdb
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Configurações locais de ambiente (Portas COM, baudrates de teste, etc)
+appsettings.Development.json
+appsettings.Local.json
+
+# Caches e arquivos do Roslyn / MSBuild
+.dotnet/
+.nuget/
+*.nuget.props
+*.nuget.targets
+.paket/
+
+# ====================================================================
+# C++ / Embedded (PlatformIO / Arduino IDE)
+# ====================================================================
+# Diretórios de build do PlatformIO e Arduino
+.pio/
+.pioenvs/
+.piolibdeps/
+build/
+bin/
+
+# Arquivos locais de configuração do PlatformIO
+.clang_complete
+.gcc-flags.json
+.provider_cache/
+
+# ====================================================================
+# Caches de IDEs & Editores de Código
+# ====================================================================
+# Visual Studio
+.vs/
+*.userprefs
+*.suo
+*.mdf
+*.ldf
+
+# Visual Studio Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+.history/
+
+# JetBrains (Rider, CLion)
+.idea/
+*.sln.iml
+
+# ====================================================================
+# Sistema Operacional & Logs
+# ====================================================================
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux / macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+*.swp
+*~
+
+# Logs da aplicação e de diagnóstico
+*.log
+logs/
+_log/
